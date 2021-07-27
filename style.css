@@ -1,0 +1,124 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+}
+
+#table{
+    background-color: white;
+    width: 50%;
+
+    padding: 2rem;
+    margin: auto; 
+    
+   
+    border-radius: 0.30rem;
+}
+body{
+    background-color: rgb(39, 165, 75);
+    border-radius: 0.25rem;
+}
+
+#container{
+    background-color:rgb(108, 230, 108);
+    border: solid rgba(0, 0, 0, 0.323) 1px;
+    margin: auto;
+    border-radius: 0.80rem;
+    padding: 4rem 2rem 1rem 2rem;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+#mensagem{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    border:rgb(9, 68, 16) solid;
+    text-align: center;
+    font-weight: 800;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0.80rem;
+    color: rgb(12, 6, 6);
+    position: relative;
+    top: -50px;
+    font-size: 30px;
+}
+
+#input {
+    height: 30px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.693);
+    border-radius: 0.25rem;
+    border: cadetblue solid 1px;
+    width:80%;
+    
+}
+.alert{ /*Estilisando o alert para erro de tarefa*/
+    background-color: crimson;
+}
+
+
+
+
+.delete{
+    display: none;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    background-color:rgb(108, 230, 108);
+    border: solid rgba(16, 111, 56, 0.775) 5px;
+    margin: auto;
+    width: 90%;
+    padding: 0.15rem;
+    border-radius: 0.40rem;
+}
+
+li:hover{
+    background-color: rgba(108, 230, 108, 0.522);
+}
+
+button{
+    line-height: 10%;
+    width: 5%;
+    font-weight: 600;
+    border-radius: 40%;
+   
+}
+button:hover{
+    background-color: red;
+    border: red;
+}
+
+#bt{
+    font-size: 15px;
+    display:inline-block;
+    color: rgb(193, 238, 212);
+    background-color: rgba(12, 121, 25, 0.693);
+    border-radius: 0.25rem;
+    border: rgb(9, 68, 16) solid 1px;
+    max-width: 60px;
+    padding: 0.5rem;
+    
+}
+
+#bt:hover{
+    background-color:  rgba(12, 121, 25, 0.419);
+}
+
+@media screen and (max-width: 933px){ 
+    #bt{
+        display: block;
+        margin:auto;
+        text-align: center;
+    }
+    #input{
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    
+}
