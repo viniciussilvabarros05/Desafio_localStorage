@@ -3,18 +3,18 @@ Lista de Tarefas
 Sobre
 A small project aiming to use LocalStorage. It saves your tasks and keeps them saved in the browser.
 
-#Tecnologias
+Tecnologias
 🎯 HTML
 
 🎯 CSS
 
 🎯 Javascript
 
-#ACESSE
+ACESSE
 
 
 
-#Autoria
+Autoria
 Vinícius Silva Barros
 
 Enjoy everyone I hope you like it
